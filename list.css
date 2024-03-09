@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 133, 55);
+    min-height: 100vh;
+}
+section{
+    background-color: aliceblue;
+    padding: 10px;
+    width: 450px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgb(0,0,0,0);
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.full_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    height: 39px;
+    padding:10px 5px ;
+    border:1px solid rgb(223, 214, 214) ;
+    border-radius:6px 0 0 6px ;
+    outline: 0;
+    width: 90%;
+}
+button{
+    width: 10%;
+    font-size: 20px;
+    height: 39px;
+    border: 0;
+    color: white;
+    background-color: rgb(21, 112, 112);
+    border-radius: 0 6px 6px 0;
+}
+.paragraphe_style{
+    margin:10px 0 ;
+    padding:10px 0 ;
+    padding-left: 5px;
+    border-radius:6px ;
+    color: #fff;
+    background-color: aquamarine;
+    word-break: break-all;
+    cursor: pointer;
+    animation: anime 0.5s linear;
+}
+.paragraphe_style:last-child{
+    margin-bottom: 0;
+}
+@keyframes anime{
+    from{
+        transform: translateY(50px);
+    }
+}
+.paragraphe_click{
+    text-decoration: line-through;
+    background-color: rgb(245, 140, 140);
+}
